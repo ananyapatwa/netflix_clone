@@ -1,0 +1,73 @@
+.style{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    background-color: rgba(0, 0, 0, 0.63);
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    width: 65vh;
+   color: white;
+   top: 43px;
+   height: 75vh;
+   border: 1px solid white;
+   border-radius: 10px;
+}
+.style h1{
+    text-align: justify;
+    font-size: 3rem;
+    padding: 27px 135px;
+    margin: 6px;
+}
+/* .text {
+    padding: 69px 32px;
+} */
+.hero{
+    padding:8px 48px 18px 32px;
+    font-weight: 400;
+    background-color: rgba(135, 131, 131, 0.038);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+
+}
+.box{
+    height: 80vh;
+    width: 1000%
+    opacity: 0.65;
+    background-color:  rgba(22, 21, 21, 0.193);
+    position: absolute;
+    top: 0;
+}
+.elig{
+    font-size: 14px;
+}
+.btn{
+    padding: 5px 41px;
+    font-weight: 400;
+    background-color: rgba(135, 131, 131, 0.038);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+
+}
+.style p{
+    font-size: 22px;
+    margin: 1px;
+    padding: 0;
+}
+.btt{
+    padding: 6px 41px;
+    font-weight: 400;
+    background-color: rgba(135, 131, 131, 0.038);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}

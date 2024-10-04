@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("images/IN-en-20240610-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100%-62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    gap: 20px;
+    padding: 30px;
+
+
+}
+
+.hero> :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 64px 0px 0px 0px;
+
+}
+
+.hero>:nth-child(2) {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero>:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(85, 84, 84);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(135, 131, 131, 0.038);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+
+}
+.red-btn:hover{
+    background-color: rgb(229, 9, 20);
+
+}
+.btn-red-sm:hover{
+    background-color: rgb(229, 9, 20);
+
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+
+
+}
+
+.btn-red-sm {
+    color: white;
+    background-color: red;
+
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(244, 232, 232, 0.5);
+
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width:70vw ;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.secimg{
+    position: relative;
+    
+
+}
+.secimg img{
+    width: 43vw;
+    position: relative;
+    z-index: 10;
+    padding: 56px;
+    left: 136px;
+    top: 201px;
+
+
+}
+.secimg video{
+    width: 32vw;
+    position: absolute;
+    top: 306px;
+    right: -52px;
+}
+section.first>div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+section.first > div :nth-child(1){
+    font-size: 48px;
+    padding: 23px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+}
+.hi{
+    position: relative;
+    top: 196px;
+}
+.hee{
+    border:none;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+#eng{
+    border: none;
+}
+.link{
+    text-decoration: none;
+    border: none;
+}

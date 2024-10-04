@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styl.css">
+    <style>
+        body {
+            background-image: url(images/bg.jpg);
+            background-color: black;
+            height: 80vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="main">
+        <form action="backend.php">
+            <div class="style">
+                <h1>Sign In</h1>
+                <div class="text">
+                    <div>
+                        <input type="text" name="Myemail" id="email" class="hero" placeholder="Email address">
+                    </div>
+                    <div>
+                        <input type="text" name="MyName" id="name" placeholder="Password" class="hero">
+                    </div>
+                    <br>
+                        <input type="submit" name="Mysubmit" id="submit" class="btn">
+                    </div>
+                    <p> OR</p>
+                    <div>
+                        <input type="reset" name="Myreset" id="reset" class="btt">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="eligiblity" class="elig">Remember me</label>
+                        <input type="checkbox" name="MyEligiblity" id="eligiblity">
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
